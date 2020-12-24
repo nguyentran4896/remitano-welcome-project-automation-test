@@ -1,4 +1,20 @@
-# web-test
+# remitano-welcome-project-automation-test
+
+Intergration testing tool for remitano welcome project
+
+![screen shot](https://github.com/nguyentran4896/remitano-welcome-project-automation-test/blob/master/screen-shot.png)
+
+## Testcase:
+
+* logInTest
+* logOutTest
+* signUpTest
+* shareVideoTest
+* voteUpVideoTest
+* voteDownVideoTest
+* unVoteVideoTest
+
+## web-test
 
 Selenium automation testing project (Maven based) written in Java with [Selenium](http://www.seleniumhq.org) Webdriver and [TestNG](http://testng.org).
 
