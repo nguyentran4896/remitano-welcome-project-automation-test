@@ -15,6 +15,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Reporter;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 
 import pl.webtest.test.SeleniumTestBase;
@@ -145,5 +146,10 @@ public class HomePageTest extends SeleniumTestBase {
         }
         String generatedString = buffer.toString();
         return generatedString;
+    }
+
+    @AfterClass
+    public void closeBrowser() {
+        // getWebDriver().close();
     }
 }

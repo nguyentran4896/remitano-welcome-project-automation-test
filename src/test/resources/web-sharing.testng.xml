@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Youtube Share Video Test Suit">
-	<test name="Home Page Page Object Test">
+	<test name="Home Page Test">
 		<classes>
 			<class name="pl.webtest.test.homepage.HomePageTest" />
 		</classes>
 	</test>		
-	
+	<test name="Share Page Test">
+		<classes>
+			<class name="pl.webtest.test.homepage.ShareVideoTest" />
+		</classes>
+	</test>		
+
 </suite>
