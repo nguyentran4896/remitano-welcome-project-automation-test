@@ -5,10 +5,15 @@
 		<classes>
 			<class name="pl.webtest.test.homepage.HomePageTest" />
 		</classes>
-	</test>		
+	</test>
 	<test name="Share Page Test">
 		<classes>
 			<class name="pl.webtest.test.homepage.ShareVideoTest" />
+		</classes>
+	</test>
+	<test name="Vote Video Test">
+		<classes>
+			<class name="pl.webtest.test.homepage.VoteVideoTest" />
 		</classes>
 	</test>		
 

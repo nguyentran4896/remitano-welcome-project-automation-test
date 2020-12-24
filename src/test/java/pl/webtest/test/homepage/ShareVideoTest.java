@@ -83,7 +83,7 @@ public class ShareVideoTest extends SeleniumTestBase {
         WebElement videoTitle = getWebDriver().findElement(By.cssSelector("#root > div.share.row > div:nth-child(2) > div > div.animate__animated.animate__fadeInRight.card-body > a"));
 
 
-        Thread.sleep(2000);
+        Thread.sleep(1000);
 
         assertThat(videoTitle.getText(), not(isEmptyString()));
 
